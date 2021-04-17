@@ -42,6 +42,7 @@ Registrándonos en la página web de WPScan y solicitando un token, podemos real
 **Archivos en el repositorio**
 ------------
 1.**README.md** Documentación.
+  
 2.**wpscan.sh**
 
 **Referencias**
