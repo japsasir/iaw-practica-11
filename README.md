@@ -18,11 +18,13 @@ https://hub.docker.com/r/wpscanteam/wpscan/
 
 El siguiente comando muestra una ayuda simple.
 `docker run -it --rm wpscanteam/wpscan --help`
+
 Versión detallada.
 `docker run -it --rm wpscanteam/wpscan --hh`
+
 **Auditoría de seguridad con WPScan**
 ------------
-Hay varias auditorías que podemos realizar ocn WPScan. Veamos algunos casos.
+Hay varias auditorías que podemos realizar con WPScan. Veamos algunos casos.
 
 **Caso 1: Auditoría de plugin instalados.**
 `docker run -it --rm wpscanteam/wpscan --url $URL  --enumerate p`
