@@ -43,7 +43,7 @@ Registrándonos en la página web de WPScan y solicitando un token, podemos real
 ------------
 1.**README.md** Documentación.
   
-2.**wpscan.sh**
+2.**wpscan.sh** Un script pensado para automatizar la instalación de WP-scan en una máquina AWS ubuntu, así como los tres análisis propuestos en la práctica.
 
 **Referencias**
 ------------
@@ -51,7 +51,8 @@ Registrándonos en la página web de WPScan y solicitando un token, podemos real
 https://josejuansanchez.org/iaw/practica-11/index.html
 - Guía de usuario de WPScan.
 https://wpscan.com/wordpress-security-scanner
-- 
+- Guía resumida de WPScan sobre Docker en entorno Ubuntu.
+https://es.linux-console.net/?p=213
 
 
 **Editor Markdown**
