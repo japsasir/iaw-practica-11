@@ -25,11 +25,11 @@ docker pull wpscanteam/wpscan
 
 # Enumeración de plugin del sitio web.
 echo examen 1/3: Lista de plugin.
-docker run wpscanteam/wpscan --url $IP_PUBLICA --enumerate p
+docker run --rm wpscanteam/wpscan --url $IP_PUBLICA --enumerate p
 
 # Examen sencillo. Descomentar 
 echo examen 2/3: Examen sencillo.
-docker run wpscanteam/wpscan --url $IP_PUBLICA
+docker run --rm wpscanteam/wpscan --url $IP_PUBLICA
 # Examen en profundidad: Auditoría con token de Wpscan.
 echo examen 3/3: Examen completo con token de la página web.
-docker run wpscanteam/wpscan --url $IP_PUBLICA --api-token $API
+docker run --rm wpscanteam/wpscan --url $IP_PUBLICA --api-token $API
