@@ -6,7 +6,7 @@
 
 ## Variables ##
 IP_PUBLICA=         # La IP del servidor que vamos a auditar.
-API=                # API de WP-Scan. Puedes conseguirla registrándote en la Web.
+TOKEN=                # Token de WP-Scan. Puedes conseguirla registrándote en la Web.
 
 # Instalamos curl.
 sudo apt install curl
@@ -32,4 +32,4 @@ echo examen 2/3: Examen sencillo.
 docker run --rm wpscanteam/wpscan --url $IP_PUBLICA
 # Examen en profundidad: Auditoría con token de Wpscan.
 echo examen 3/3: Examen completo con token de la página web.
-docker run --rm wpscanteam/wpscan --url $IP_PUBLICA --api-token $API
+docker run --rm wpscanteam/wpscan --url $IP_PUBLICA --api-token $TOKEN
