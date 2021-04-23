@@ -24,13 +24,16 @@ Versión detallada.
 
 **Auditoría de seguridad con WPScan**
 ------------
-Hay varias auditorías que podemos realizar con WPScan. Veamos algunos casos.
+Hay varias auditorías que podemos realizar con WPScan. Veamos algunos casos y capturas de ejemplos realizados sobre un Wordpress desplegado con una AMI de Bitnami.
 
 **Caso 1: Auditoría de plugin instalados.**
 `docker run -it --rm wpscanteam/wpscan --url $URL  --enumerate p`
+![](https://i.imgur.com/g8fIJDh.png)
+
 
 **Caso 2: Análisis completo.**
 `docker run -it --rm wpscanteam/wpscan --url $URL`
+![](https://i.imgur.com/j2kwIbz.png)
 
 **Auditoría de seguridad avanzada: uso de token**
 ------------
@@ -38,6 +41,8 @@ Registrándonos en la página web de WPScan y solicitando un token, podemos real
 
 **Caso 3: Análisis en profundidad**
 `docker run -it --rm wpscanteam/wpscan --url $URL --api-token 8pIlWnF2dxbgfvyQfDAUaV3T3iafo0uO1K8OPr2KKRM`
+![](https://i.imgur.com/JvINFxE.png)
+
 
 **Archivos en el repositorio**
 ------------
